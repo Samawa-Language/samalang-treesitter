@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: 'samalang',
+  name: 'samawa_language',
 
   extras: $ => [
     /\s/,
