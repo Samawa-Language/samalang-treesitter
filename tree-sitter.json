@@ -2,8 +2,8 @@
   "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
   "grammars": [
     {
-      "name": "samalang",
-      "camelcase": "Samalang",
+      "name": "samawa_language",
+      "camelcase": "SamaLang",
       "title": "Samalang",
       "scope": "source.samalang",
       "file-types": [
