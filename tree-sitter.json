@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "samalang",
+      "camelcase": "Samalang",
+      "title": "Samalang",
+      "scope": "source.samalang",
+      "file-types": [
+        "samalang"
+      ],
+      "injection-regex": "^samalang$",
+      "class-name": "TreeSitterSamalang"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A Tree-sitter for Samalang",
+    "authors": [
+      {
+        "name": "Rzfan03",
+        "email": "fajrulsyaban47@gmail.com",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/Rzfan03/samawa-language",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}

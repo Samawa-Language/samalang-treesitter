@@ -1,0 +1,24 @@
+==================
+Variable Declaration
+==================
+ada x = 10
+---
+(source_file
+  (variable_declaration
+    (identifier)
+    (number)))
+
+==================
+If Statement
+==================
+lamen x > 5 tres
+  tulis(x)
+jure_mo
+---
+(source_file
+  (if_statement
+    (binary_expression
+      (identifier)
+      (number))
+    (print_statement
+      (identifier))))
