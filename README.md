@@ -1,1 +1,1 @@
-# samalang-treesitter
+a treesitter for samawa language
